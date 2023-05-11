@@ -1,0 +1,182 @@
+body{
+    margin: 0px;
+    background-color: blueviolet;
+}
+
+
+#site{
+    display: grid;
+
+
+    grid-template-areas: 
+        'topo       topo  '
+        'principal  principal'
+        'galeria    galeria'
+ 
+
+    ;
+    width: 1000px;
+    margin: 200 auto;
+}
+
+#site div{ 
+    padding: 0em; 
+    text-align: center;
+}
+
+#topo {
+    background-image: radial-gradient(rgb(240, 127, 255), rgb(135, 71, 196));
+    grid-area: topo;
+    height: 100px;
+    width: 1880px;
+
+}
+
+#topo img{
+    width: 220px;
+    height: 87px;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+
+
+#principal {
+    background-image: radial-gradient(rgb(139, 46, 192), rgb(150, 131, 255));
+    grid-area: principal;
+    height: 900px;
+    width: 1880px;
+
+}
+
+#flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+ul li a{
+    color: #331343;
+    font-family: Impact, Haettenschweiler, 'Arial', sans-serif;
+    font-size: 18px;
+    
+} 
+
+ul li a:hover {
+    color: #dd98ff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#galeria {
+    background-image: radial-gradient(rgb(139, 46, 192), rgb(150, 131, 255));
+    grid-area: galeria;
+    height: 800px;
+    width: 1879px;
+
+}
+
+#galeria img{
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+    border: 1px  black;
+    border-radius: 5%;
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-top: 120px;
+}
+
+#galeria a {
+    background-color: #331343; 
+    color: #dd98ff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline-block;
+    padding: 5px 20px; 
+    margin: 103px; 
+    margin-top: 30px;
+    text-decoration: #331343; 
+    border-radius: 10px; 
+    transition-duration: 0.5s;
+}
+
+#galeria a:hover{
+    background-color: #dd98ff;
+    color: #331343;
+}
+
+#img2 {
+    background-image: url(https://www.fulguropop.com/wp-content/uploads/2020/06/Fullmetal.Alchemist.full_.568530.jpg);
+    grid-area: principal;
+    height: 700px;
+    width: 1880px;
+    margin-right: 200px;
+}
+
+#quadrado {
+    background-image: radial-gradient(rgb(189, 161, 255),rgb(183, 171, 255));
+    display: inline-block;
+    margin-right: 0px;
+    margin-top: 200px;
+    height: 600px;
+    width: 1000px;
+    border-radius: 2%;
+}
+
+#poster {
+    background-color: black;
+    display: inline-block;
+    height: 460px;
+    width: 300px;
+    margin-right: 500px;
+    margin-top: 45px;
+
+}
+
+#titulo {
+    background-image: radial-gradient(rgb(189, 161, 255),rgb(183, 171, 255));
+    display: grid;
+    height: 460px;
+    width: 500px;
+    margin-left: 320px;
+    margin-top: -470px;
+
+ 
+}
+
+#genero {
+    background-image: radial-gradient(rgb(189, 161, 255),rgb(183, 171, 255));
+    display: grid;
+    height: 130px;
+    width: 500px;
+    margin-left: 0px;
+    margin-top: -60px;
+
+ 
+}
+
+#sinopse {
+    background-image: radial-gradient(rgb(189, 161, 255),rgb(183, 171, 255));
+    display: inline-block;
+    height: 190px;
+    width: 500px;
+    margin-left: 0px;
+    margin-top: -70px;
+
+ 
+}
+
+h2{
+    text-align: justify;
+}
+
+h1{
+    text-align: justify;
+}
